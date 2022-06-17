@@ -4,8 +4,8 @@ export default function Home() {
     <>
       {/* <Home /> */}
       <About />
-      <Partners />
-      <JoinUs />
+      {/* <Partners />
+      <JoinUs /> */}
     </>
   );
 }
