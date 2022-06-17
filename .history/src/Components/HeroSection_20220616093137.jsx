@@ -1,7 +1,10 @@
 import React from "react";
+import logo from './logo.png'
 
 const Home = () => {
-  return <div>Home</div>;
+  return <div>
+    
+  </div>;
 };
 
 export default Home;
