@@ -1,0 +1,35 @@
+.mb-3 {
+    position: absolute;
+    width: 1312px;
+    height: 472px;
+    left: 90px;
+    top: 1372px;
+
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 80px;
+    /* or 178% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.body{
+    position: absolute;
+    width: 577px;
+    height: 161px;
+    left: 457px;
+    top: 1186px;
+
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 100px;
+    line-height: 120px;
+
+    color: #FFFFFF;
+}
+
