@@ -126,8 +126,7 @@ const Apply = () => {
       setEnteredExpiryDate("");
       setEnteredConservationAreas("");
 
-      router.push('../../../pages/api/checkout_sessions');
-
+     
     } catch (error) {
       toast(error.message);
     }
@@ -159,8 +158,8 @@ const Apply = () => {
           Apply for Global Green Visa
         </h3>
         <form
-        action="/api/checkout_sessions" method="POST"
-          // onSubmit={onSubmit}
+      
+          onSubmit={onSubmit}
           className="shadow-md rounded-lg px-7 pt-6 pb-8 m-5 border-gray border-2 "
         >
 
