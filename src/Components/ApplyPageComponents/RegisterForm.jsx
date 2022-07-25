@@ -134,8 +134,8 @@ const {email, password, last_name, first_name} = data
             <div className="mb-6">
        
               <input
-              {...register("email", {required: "Email is required"})}
-                type="email"
+              {...register("email", {required: "Email is required", pattern: {value: /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/, message: "Invalid email wewee"}})}
+                
                 className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                 
                 placeholder=" Email"

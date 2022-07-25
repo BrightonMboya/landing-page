@@ -3,6 +3,7 @@ import Link from "next/link";
 import styles from "../../../styles/Home.module.css";
 import Button from "../UI/Button";
 import Logo from "../UI/Logo";
+import { AUTH_TOKEN, USER } from "../constant";
 
 const HeroSection = () => {
   return (
@@ -10,7 +11,7 @@ const HeroSection = () => {
       <div
         className={`${"absolute h-[100vh] w-[100vw] -z-1 overflow-x-hidden bg-[rgba(0,0,0,0.1)] md:overflow-x-hidden"}`}
       >
-        <div className="flex pt-5 justify-between">
+        {/* <div className="flex pt-5 justify-between">
           <Logo />
           <div className="flex gap-2 md:gap-5 mr-5 mt-3">
             <Link href="#">
@@ -19,8 +20,11 @@ const HeroSection = () => {
             <Link href="#">
               <h3 className="text-white text-2xl ">Login</h3>
             </Link>
+            <button onClick={handleLogout} className="mt-4 cursor-pointer bg-green shadow-md rounded-md text-xl md:text-2xl font-semibold px-4 py-1 md:py-2">
+          Logout
+        </button>
           </div>
-        </div>
+        </div> */}
         <Image
           src="/hero.jpg"
           layout="fill"
